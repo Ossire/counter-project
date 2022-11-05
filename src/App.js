@@ -7,7 +7,7 @@ import NavBar from "./Components/Navlink";
 import Home from "./Components/Home";
 import ErrorPage from "./Components/ErrorPage";
 import TestErrBoundary from "./Components/TestErrBoundary";
-
+import { HelmetProvider } from "react-helmet-async";
 
 
 
@@ -33,6 +33,8 @@ function App() {
 
 
   return (
+    
+<HelmetProvider>
 
     <div>
       <Router>
@@ -47,6 +49,7 @@ function App() {
       </Router>
 
     </div>
+    </HelmetProvider>
   
 
   );
