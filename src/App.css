@@ -1,38 +1,98 @@
-.App {
+
+
+body {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+
+h1 {
+  color: white;
+  font-size: 10px;
+}
+
+h2 {
+  
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  font-size: 8px;
+  font-weight: 200;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  margin: 10px;
+  gap: 20px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.the-container{
+  margin: 45px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.p-tag{
+  margin: 20px;
+}
+
+.text-muted{
+  color: yellow;
+  font-size: 17px;
+
+}
+
+.second-body {
+  background: #E4E5E6;
+}
+
+
+
+
+saving-it {
+  background-image: linear-gradient(to right, #DECBA4, #3E5151);
+  background-color: rgb(192, 215, 192);
+}
+
+
+
+.card-box{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  height: min-content;
+  width: 30%;
+  background: #3E5151;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+  align-items: center;
+}
+
+
+.card-content {
+  text-align: justify;
+  color: black;
+  padding: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.big-box{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
