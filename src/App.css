@@ -68,7 +68,7 @@ saving-it {
 .card-box{
   margin: 30px;
   height: min-content;
-  width: 46%;
+  width: min-content;
   background: #3E5151;
   border-radius: 20px;
   overflow: hidden;
@@ -96,6 +96,11 @@ saving-it {
   color: red;
 }
 
+.error-navigatee{
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
 
 
 
