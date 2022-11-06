@@ -11,7 +11,7 @@ const Comp1 = () => {
         <div className="card-box">
             <div className="card-content">
                 <h2 >fIRST COMPONENT</h2>
-                <h3 className="text-muted">I'm displaying the content inside this card to show that the error boundary works. The throw error does'nt catch it</h3>
+                <h3 className="text-muted">I'm displaying the content inside this first card component to show that the error boundary works. The throw error does'nt catch it</h3>
             </div>
         </div>
     )
@@ -43,7 +43,7 @@ const Comp3 = () => {
         <div className="card-box">
             <div className="card-content">
                 <h2>Third COMPONENT</h2>
-                <h3 className="text-muted">I'm displaying the content inside this card to show that my error boundary works. The throw error does'nt catch it</h3>
+                <h3 className="text-muted">I'm displaying the content inside this third card component to show that my error boundary works. The throw error does'nt catch</h3>
             </div>
         </div>
     )
