@@ -1,4 +1,6 @@
 import React from 'react';
+import ErrorNavigate from './ErrorNavigate';
+import { Button } from 'react-bootstrap';
 
 export class ErrorBoundary extends React.Component{
 constructor(props) {
@@ -21,7 +23,9 @@ render () {
     return (
         <div className='card-box'>
     <div className='card-content'> 
-    <h3  className='the-error'>error(cannot display component's content)!Something went wrong HERE!</h3>
+    <h3  className='the-error'>error(cannot display component's content)!Something went wrong HERE!
+    <ErrorNavigate/>
+    </h3>
     </div>
     </div>
     )
