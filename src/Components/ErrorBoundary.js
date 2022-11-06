@@ -21,7 +21,7 @@ render () {
     return (
         <div className='card-box'>
     <div className='card-content'> 
-    <h3  style={{color: 'red'}}>error(cannot display component's content)!Something went wrong HERE!</h3>
+    <h3  className='the-error'>error(cannot display component's content)!Something went wrong HERE!</h3>
     </div>
     </div>
     )
