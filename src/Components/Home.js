@@ -10,7 +10,7 @@ const Home = () => {
               description= 'A Beginner friendly react app project'
             type='article'
               />
-            <h1>Welcome... This is the Homepage for my ALT-SCHOOL counter react app project....</h1>
+            <h1>Welcome... This is the Landing Page for my ALT-SCHOOL counter react app project....</h1>
         </div>
     )
 }
