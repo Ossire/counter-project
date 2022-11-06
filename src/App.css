@@ -68,7 +68,7 @@ saving-it {
 .card-box{
   margin: 30px;
   height: min-content;
-  width: 45%;
+  width: 46%;
   background: #3E5151;
   border-radius: 20px;
   overflow: hidden;
@@ -90,6 +90,12 @@ saving-it {
   flex-direction: column;
   
 }
+
+.the-error{
+  width: wrap;
+  color: red;
+}
+
 
 
 
